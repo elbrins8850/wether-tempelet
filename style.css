@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: rgb(20, 102, 149);
+}
+.container{
+    width: 420px;
+    height: 470px;
+    background: linear-gradient(130deg, rgb(43,99,178),rgb(22,22,220));
+    color: #fff;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 30px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    padding: 12px 22px;
+    flex: 1;
+    margin-right: 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: rgb(233, 240, 240);
+    color: black;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: rgb(233, 240, 240);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    color: #b1afaf;
+    cursor: pointer;
+}
+.wether .icon{
+    margin-top: 20px;
+    width: 180px;
+    margin-bottom: 30px;
+}
+.wether h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.wether h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -5px;
+}
+
+.detail{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px 20px;
+margin-top: 60px;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+}
+.col i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.cold,.wind{
+    font-size: 27px;
+}
+.cold .left{
+    margin-left: -70px;
+
+}
+
+.error{
+    text-align: left;
+    margin-top: 10px;
+    color: rgb(195, 115, 115);
+    font-size: 18px;
+    display: none;
+}
